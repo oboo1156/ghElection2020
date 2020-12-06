@@ -1,0 +1,478 @@
+{% extends "abatoo/base.html" %}
+{% block content %}
+<html>
+
+<div id="chartContainer1">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+</div>
+
+<div id="chartContainer2">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+</div>
+
+<body>
+
+
+
+<h4 style="color:blue">Election 2020</h4>
+<canvas id="myChart"></canvas>
+<canvas id="myChart2"></canvas>
+<canvas id="myChart3"></canvas>
+<canvas id="myChart4"></canvas>
+<canvas id="myChart5"></canvas>
+<canvas id="myChart6"></canvas>
+<canvas id="myChart7"></canvas>
+<canvas id="myChart8"></canvas>
+<canvas id="myChart9"></canvas>
+<canvas id="myChart10"></canvas>
+<canvas id="myChart11"></canvas>
+<canvas id="myChart12"></canvas>
+<canvas id="myChart13"></canvas>
+<canvas id="myChart14"></canvas>
+<canvas id="myChart15"></canvas>
+<canvas id="myChart16"></canvas>
+<canvas id="myChart17"></canvas>
+
+
+</body>
+
+<script>
+
+    var ctx = document.getElementById('myChart').getContext('2d');
+var chart = new Chart(ctx, {
+    // The type of chart we want to create
+    type: 'bar',
+
+    // The data for our dataset
+    data: {
+        labels: ['NPP', 'NDC', 'GUM', 'CPP', 'GFP', 'GCPP', 'APC','LGP','PNC','PPP','NDP','INDEPENDENT'],
+        datasets: [{
+            label: 'Ashanti Region',
+            backgroundColor:['blue','rgb(0, 255, 0)','rgb(255, 99, 132)','rgb(128, 255, 0)',
+            'rgb(0, 255, 255)','red','green','orange','yellow','blue','rgb(255,90,132)','rgb(255,90,132)'],
+            borderColor: 'blue',
+            data: [450000, 10000, 59, 299, 20909,44323,43224,44342,4324,4344,44322,42344]
+        }]
+    },
+
+    // Configuration options go here
+
+    options: {}
+});
+
+</script>
+
+
+<script>
+
+    var ctx = document.getElementById('myChart2').getContext('2d');
+var chart = new Chart(ctx, {
+    // The type of chart we want to create
+    type: 'bar',
+
+    // The data for our dataset
+    data: {
+        labels: ['NPP', 'NDC', 'GUM', 'CPP', 'GFP', 'GCPP', 'APC','LGP','PNC','PPP','NDP','INDEPENDENT'],
+        datasets: [{
+            label: 'Central Region',
+            backgroundColor:['blue','rgb(0, 255, 0)','rgb(255, 99, 132)','rgb(128, 255, 0)',
+            'rgb(0, 255, 255)','red','green','orange','yellow','blue','rgb(255,90,132)','rgb(255,90,132)'],
+            borderColor: 'rgb(255, 255, 128)',
+            data: [44445, 10433, 5, 2, 20,44,44,44,44,44,44,4]
+        }]
+    },
+
+    // Configuration options go here
+
+    options: {}
+});
+
+</script>
+
+<script>
+
+    var ctx = document.getElementById('myChart3').getContext('2d');
+var chart = new Chart(ctx, {
+    // The type of chart we want to create
+    type: 'bar',
+
+    // The data for our dataset
+    data: {
+        labels: ['NPP', 'NDC', 'GUM', 'CPP', 'GFP', 'GCPP', 'APC','LGP','PNC','PPP','NDP','INDEPENDENT'],
+        datasets: [{
+            label: 'Northern Region',
+            backgroundColor:['blue','rgb(0, 255, 0)','rgb(255, 99, 132)','rgb(128, 255, 0)',
+            'rgb(0, 255, 255)','red','green','orange','yellow','blue','rgb(255,90,132)','rgb(255,90,132)'],
+            borderColor: 'rgb(255, 255, 128)',
+            data: [45, 10, 5, 2, 20,44,44,44,44,44,44,4]
+        }]
+    },
+
+    // Configuration options go here
+
+    options: {}
+});
+
+</script>
+
+
+<script>
+
+    var ctx = document.getElementById('myChart4').getContext('2d');
+var chart = new Chart(ctx, {
+    // The type of chart we want to create
+    type: 'bar',
+
+    // The data for our dataset
+    data: {
+        labels: ['NPP', 'NDC', 'GUM', 'CPP', 'GFP', 'GCPP', 'APC','LGP','PNC','PPP','NDP','INDEPENDENT'],
+        datasets: [{
+            label: 'Western Region',
+            backgroundColor:['blue','rgb(0, 255, 0)','rgb(255, 99, 132)','rgb(128, 255, 0)',
+            'rgb(0, 255, 255)','red','green','orange','yellow','blue','rgb(255,90,132)','rgb(255,90,132)'],
+            borderColor: 'rgb(255, 255, 128)',
+            data: [45, 10, 5, 2, 20,44,44,44,44,44,44,4]
+        }]
+    },
+
+    // Configuration options go here
+
+    options: {}
+});
+
+</script>
+<script>
+
+    var ctx = document.getElementById('myChart5').getContext('2d');
+var chart = new Chart(ctx, {
+    // The type of chart we want to create
+    type: 'bar',
+
+    // The data for our dataset
+    data: {
+        labels: ['NPP', 'NDC', 'GUM', 'CPP', 'GFP', 'GCPP', 'APC','LGP','PNC','PPP','NDP','INDEPENDENT'],
+        datasets: [{
+            label: 'Volta Region',
+            backgroundColor:['blue','rgb(0, 255, 0)','rgb(255, 99, 132)','rgb(128, 255, 0)',
+            'rgb(0, 255, 255)','red','green','orange','yellow','blue','rgb(255,90,132)','rgb(255,90,132)'],
+            borderColor: 'rgb(255, 255, 128)',
+            data: [45, 10, 5, 2, 20,44,44,44,44,44,44,4]
+        }]
+    },
+
+    // Configuration options go here
+
+    options: {}
+});
+
+</script>
+
+<script>
+
+    var ctx = document.getElementById('myChart6').getContext('2d');
+var chart = new Chart(ctx, {
+    // The type of chart we want to create
+    type: 'bar',
+
+    // The data for our dataset
+    data: {
+        labels: ['NPP', 'NDC', 'GUM', 'CPP', 'GFP', 'GCPP', 'APC','LGP','PNC','PPP','NDP','INDEPENDENT'],
+        datasets: [{
+            label: 'Eastern Region',
+            backgroundColor:['blue','rgb(0, 255, 0)','rgb(255, 99, 132)','rgb(128, 255, 0)',
+            'rgb(0, 255, 255)','red','green','orange','yellow','blue','rgb(255,90,132)','rgb(255,90,132)'],
+            borderColor: 'rgb(255, 255, 128)',
+            data: [45, 10, 5, 2, 20,44,44,44,44,44,44,4]
+        }]
+    },
+
+    // Configuration options go here
+
+    options: {}
+});
+
+</script>
+
+<script>
+
+    var ctx = document.getElementById('myChart7').getContext('2d');
+var chart = new Chart(ctx, {
+    // The type of chart we want to create
+    type: 'bar',
+
+    // The data for our dataset
+    data: {
+        labels: ['NPP', 'NDC', 'GUM', 'CPP', 'GFP', 'GCPP', 'APC','LGP','PNC','PPP','NDP','INDEPENDENT'],
+        datasets: [{
+            label: '	Upper West',
+            backgroundColor:['blue','rgb(0, 255, 0)','rgb(255, 99, 132)','rgb(128, 255, 0)',
+            'rgb(0, 255, 255)','red','green','orange','yellow','blue','rgb(255,90,132)','rgb(255,90,132)'],
+            borderColor: 'rgb(255, 255, 128)',
+            data: [45, 10, 5, 2, 20,44,44,44,44,44,44,4]
+        }]
+    },
+
+    // Configuration options go here
+
+    options: {}
+});
+
+</script>
+
+<script>
+
+    var ctx = document.getElementById('myChart8').getContext('2d');
+var chart = new Chart(ctx, {
+    // The type of chart we want to create
+    type: 'bar',
+
+    // The data for our dataset
+    data: {
+        labels: ['NPP', 'NDC', 'GUM', 'CPP', 'GFP', 'GCPP', 'APC','LGP','PNC','PPP','NDP','INDEPENDENT'],
+        datasets: [{
+            label: 'Upper East',
+            backgroundColor:['blue','rgb(0, 255, 0)','rgb(255, 99, 132)','rgb(128, 255, 0)',
+            'rgb(0, 255, 255)','red','green','orange','yellow','blue','rgb(255,90,132)','rgb(255,90,132)'],
+            borderColor: 'rgb(255, 255, 128)',
+            data: [45, 10, 5, 2, 20,44,44,44,44,44,44,4]
+        }]
+    },
+
+    // Configuration options go here
+
+    options: {}
+});
+
+</script>
+
+<script>
+
+    var ctx = document.getElementById('myChart9').getContext('2d');
+var chart = new Chart(ctx, {
+    // The type of chart we want to create
+    type: 'bar',
+
+    // The data for our dataset
+    data: {
+        labels: ['NPP', 'NDC', 'GUM', 'CPP', 'GFP', 'GCPP', 'APC','LGP','PNC','PPP','NDP','INDEPENDENT'],
+        datasets: [{
+            label: 'Greater Accra',
+            backgroundColor:['blue','rgb(0, 255, 0)','rgb(255, 99, 132)','rgb(128, 255, 0)',
+            'rgb(0, 255, 255)','red','green','orange','yellow','blue','rgb(255,90,132)','rgb(255,90,132)'],
+            borderColor: 'rgb(255, 255, 128)',
+            data: [45, 10, 5, 2, 20,44,44,44,44,44,44,4]
+        }]
+    },
+
+    // Configuration options go here
+
+    options: {}
+});
+
+</script>
+
+<script>
+
+    var ctx = document.getElementById('myChart10').getContext('2d');
+var chart = new Chart(ctx, {
+    // The type of chart we want to create
+    type: 'bar',
+
+    // The data for our dataset
+    data: {
+        labels: ['NPP', 'NDC', 'GUM', 'CPP', 'GFP', 'GCPP', 'APC','LGP','PNC','PPP','NDP','INDEPENDENT'],
+        datasets: [{
+            label: 'Savannah',
+            backgroundColor:['blue','rgb(0, 255, 0)','rgb(255, 99, 132)','rgb(128, 255, 0)',
+            'rgb(0, 255, 255)','red','green','orange','yellow','blue','rgb(255,90,132)','rgb(255,90,132)'],
+            borderColor: 'rgb(255, 255, 128)',
+            data: [45, 10, 5, 2, 20,44,44,44,44,44,44,4]
+        }]
+    },
+
+    // Configuration options go here
+
+    options: {}
+});
+
+</script>
+<script>
+
+    var ctx = document.getElementById('myChart11').getContext('2d');
+var chart = new Chart(ctx, {
+    // The type of chart we want to create
+    type: 'bar',
+
+    // The data for our dataset
+    data: {
+        labels: ['NPP', 'NDC', 'GUM', 'CPP', 'GFP', 'GCPP', 'APC','LGP','PNC','PPP','NDP','INDEPENDENT'],
+        datasets: [{
+            label: 'North East',
+            backgroundColor:['blue','rgb(0, 255, 0)','rgb(255, 99, 132)','rgb(128, 255, 0)',
+            'rgb(0, 255, 255)','red','green','orange','yellow','blue','rgb(255,90,132)','rgb(255,90,132)'],
+            borderColor: 'rgb(255, 255, 128)',
+            data: [45, 10, 5, 2, 20,44,44,44,44,44,44,4]
+        }]
+    },
+
+    // Configuration options go here
+
+    options: {}
+});
+
+</script>
+<script>
+
+    var ctx = document.getElementById('myChart12').getContext('2d');
+var chart = new Chart(ctx, {
+    // The type of chart we want to create
+    type: 'bar',
+
+    // The data for our dataset
+    data: {
+        labels: ['NPP', 'NDC', 'GUM', 'CPP', 'GFP', 'GCPP', 'APC','LGP','PNC','PPP','NDP','INDEPENDENT'],
+        datasets: [{
+            label: 'Bono East',
+            backgroundColor:['blue','rgb(0, 255, 0)','rgb(255, 99, 132)','rgb(128, 255, 0)',
+            'rgb(0, 255, 255)','red','green','orange','yellow','blue','rgb(255,90,132)','rgb(255,90,132)'],
+            borderColor: 'rgb(255, 255, 128)',
+            data: [45, 10, 5, 2, 20,44,44,44,44,44,44,4]
+        }]
+    },
+
+    // Configuration options go here
+
+    options: {}
+});
+
+</script>
+<script>
+
+    var ctx = document.getElementById('myChart13').getContext('2d');
+var chart = new Chart(ctx, {
+    // The type of chart we want to create
+    type: 'bar',
+
+    // The data for our dataset
+    data: {
+        labels: ['NPP', 'NDC', 'GUM', 'CPP', 'GFP', 'GCPP', 'APC','LGP','PNC','PPP','NDP','INDEPENDENT'],
+        datasets: [{
+            label: 'Oti',
+            backgroundColor:['blue','rgb(0, 255, 0)','rgb(255, 99, 132)','rgb(128, 255, 0)',
+            'rgb(0, 255, 255)','red','green','orange','yellow','blue','rgb(255,90,132)','rgb(255,90,132)'],
+            borderColor: 'rgb(255, 255, 128)',
+            data: [45, 10, 5, 2, 20,44,44,44,44,44,44,4]
+        }]
+    },
+
+    // Configuration options go here
+
+    options: {}
+});
+
+</script>
+<script>
+
+    var ctx = document.getElementById('myChart14').getContext('2d');
+var chart = new Chart(ctx, {
+    // The type of chart we want to create
+    type: 'bar',
+
+    // The data for our dataset
+    data: {
+        labels: ['NPP', 'NDC', 'GUM', 'CPP', 'GFP', 'GCPP', 'APC','LGP','PNC','PPP','NDP','INDEPENDENT'],
+        datasets: [{
+            label: 'Ahafo',
+            backgroundColor:['blue','rgb(0, 255, 0)','rgb(255, 99, 132)','rgb(128, 255, 0)',
+            'rgb(0, 255, 255)','red','green','orange','yellow','blue','rgb(255,90,132)','rgb(255,90,132)'],
+            borderColor: 'rgb(255, 255, 128)',
+            data: [45, 10, 5, 2, 20,44,44,44,44,44,44,4]
+        }]
+    },
+
+    // Configuration options go here
+
+    options: {}
+});
+
+</script>
+<script>
+
+    var ctx = document.getElementById('myChart15').getContext('2d');
+var chart = new Chart(ctx, {
+    // The type of chart we want to create
+    type: 'bar',
+
+    // The data for our dataset
+    data: {
+        labels: ['NPP', 'NDC', 'GUM', 'CPP', 'GFP', 'GCPP', 'APC','LGP','PNC','PPP','NDP','INDEPENDENT'],
+        datasets: [{
+            label: 'Bono',
+            backgroundColor:['blue','rgb(0, 255, 0)','rgb(255, 99, 132)','rgb(128, 255, 0)',
+            'rgb(0, 255, 255)','red','green','orange','yellow','blue','rgb(255,90,132)','rgb(255,90,132)'],
+            borderColor: 'rgb(255, 255, 128)',
+            data: [45, 10, 5, 2, 20,44,44,44,44,44,44,4]
+        }]
+    },
+
+    // Configuration options go here
+
+    options: {}
+});
+
+</script>
+<script>
+
+    var ctx = document.getElementById('myChart16').getContext('2d');
+var chart = new Chart(ctx, {
+    // The type of chart we want to create
+    type: 'bar',
+
+    // The data for our dataset
+    data: {
+        labels: ['NPP', 'NDC', 'GUM', 'CPP', 'GFP', 'GCPP', 'APC','LGP','PNC','PPP','NDP','INDEPENDENT'],
+        datasets: [{
+            label: 'Western North',
+            backgroundColor:['blue','rgb(0, 255, 0)','rgb(255, 99, 132)','rgb(128, 255, 0)',
+            'rgb(0, 255, 255)','red','green','orange','yellow','blue','rgb(255,90,132)','rgb(255,90,132)'],
+            borderColor: 'rgb(255, 255, 128)',
+            data: [45, 10, 5, 2, 20,44,44,44,44,44,44,4]
+        }]
+    },
+
+    // Configuration options go here
+
+    options: {}
+});
+
+</script>
+
+<script>
+
+    var ctx = document.getElementById('myChart17').getContext('2d');
+var chart = new Chart(ctx, {
+    // The type of chart we want to create
+    type: 'bar',
+
+    // The data for our dataset
+    data: {
+        labels: ['NPP', 'NDC', 'GUM', 'CPP', 'GFP', 'GCPP', 'APC','LGP','PNC','PPP','NDP','INDEPENDENT'],
+        datasets: [{
+            label: 'Overall Data ',
+            backgroundColor:['blue','rgb(0, 255, 0)','rgb(255, 99, 132)','rgb(128, 255, 0)',
+            'rgb(0, 255, 255)','red','green','orange','yellow','blue','rgb(255,90,132)','rgb(255,90,132)'],
+            borderColor: 'blue',
+            data: [450000, 10000, 59, 299, 20909,44323,43224,44342,4324,4344,44322,42344]
+        }]
+    },
+
+    // Configuration options go here
+
+    options: {}
+});
+
+</script>
+
+</html>
+
+{% endblock content %}

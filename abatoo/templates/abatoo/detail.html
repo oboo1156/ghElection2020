@@ -1,0 +1,31 @@
+{% extends "abatoo/base.html" %}
+
+
+{% block content %}
+ <h1>{{ region.title }}</h1>
+ <p class="date" style="color:#00abff">
+ Published {{ region.created }}
+ </p>
+ {{ region.body|linebreaks }}
+
+<h3>Comments...</h3>
+{% if not region.comments.all %}
+No comments yet ...
+
+{% else %}
+<a href="{% url 'abatoo:comment_add' region.pk %}">Add one</a>
+
+{% for comment in region.comments.all %}
+ <p class="date">
+{{comment.name}} at {{comment.created}}
+ </p>
+{{comment.body}}
+</br>
+
+
+{% endfor %}
+{% endif %}</br>
+<a href="{% url 'abatoo:comment_add' region.pk %}">Add New Comment</a>
+
+{% endblock %}
+

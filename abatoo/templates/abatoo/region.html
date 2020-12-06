@@ -1,0 +1,21 @@
+{% extends "abatoo/base.html" %}
+
+{% block content %}
+
+<h4 style="color:blue">Regions</h4>
+ {% for region in regions %}
+ <h2>
+ <a href="{{ region.get_absolute_url }}">
+ {{ region.title }}
+ </a>
+ </h2>
+ <p class="date" style="color:#00abff">
+ created on {{ region.created }}
+ </p>
+
+ <p style ="font-style:oblique">{{ region.body|linebreaks }}</p >
+
+
+
+ {% endfor %}
+{% endblock content %}
